@@ -1,0 +1,31 @@
+.blocks-coloring-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+.controls {
+    margin-bottom: 20px;
+}
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.item {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item: :last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
